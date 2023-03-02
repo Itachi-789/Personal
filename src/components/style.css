@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mirza&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    /* background-image: url('https://c0.wallpaperflare.com/preview/569/823/754/united-states-washington-stage-podium.jpg'); */
+    height: 100vh;
+    width: 100vw;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(45, 45, 45);
+    height: 7vh;
+}
+/* .navbar:hover{
+    background-color: rgb(45, 45, 45);
+} */
+/* .navbar ::after h1{
+
+} */
+.navbar  p{
+    margin-left: 80vw;
+    margin-top: 2vh;
+    font-size: 2.7vh;
+    color: white;
+}
+.navbar  h1{
+    font-size: 4vh;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Irish Grover', cursive;
+    color: white;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+.main-content h1 {
+    margin-top: 35vh;
+    margin-left: 6vw;
+    font-size: 5vh;
+    padding-bottom: 2vh;
+    font-family: 'Jockey One', sans-serif;
+    /* color: white; */
+}
+.main-content p{
+    margin-left: 6vw;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 2.8vh;
+}
+.main-content button{
+    height: 5vh;
+    margin-top: 2vh;
+    margin-left: 6vw;
+    width: 15vw;
+    font-size: 2.5vh;
+    border-radius: 10px;
+    background-color: #EED2D2;
+    font-family: 'Jockey One', sans-serif;
+}
+
+.textbox-area{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    text-align: center; */
+}
+
+.textbox-1{
+    border: 3px solid black;
+    height: 50vh;
+    width: 40vw;
+    margin-top: 15vh; 
+    border-radius: 30px;
+    margin-left: 120px;
+}
+
+.textbox-2{
+    border: 3px solid black;
+    height: 50vh;
+    width: 40vw;
+    margin-top: 15vh; 
+    border-radius: 30px;
+    margin-left: 120px
+}
+
+.textbox-2 p{
+    padding: 20px 20px 20px 20px;
+    font-size: 25px;
+    font-family: 'Mirza', cursive;
+}
+
+.textbox-1 p{
+    padding: 20px 20px 20px 20px;
+    font-size: 25px;
+    font-family: 'Mirza', cursive;
+}
+
+.instructions{
+    display: flex;
+}
+
+.instructions p{
+    font-family: 'Jockey One', sans-serif;
+    margin-top: 2vw;
+    margin-left: 17vw;
+    font-size: 23px;
+}
+
+.instructions button {
+    font-family: 'Mirza', cursive;
+    margin-top: 2vw;
+    margin-left: 68vw;
+    height: 5vh;
+    width: 7vw;
+    border-radius: 14px;
+    font-size: 30px;
+    padding-bottom: 7px;
+    border: 3px solid black;
+    position: fixed;
+}
+
+#next-button {
+    font-family: 'Mirza', cursive;
+    margin-top: 2vw;
+    margin-left: 76vw;
+    height: 5vh;
+    width: 7vw;
+    border-radius: 14px;
+    font-size: 30px;
+    padding-bottom: 7px;
+    border: 3px solid black;
+    position: fixed;
+}
+
+#reset-button {
+    font-family: 'Mirza', cursive;
+    margin-top: 2vw;
+    margin-left: 60vw;
+    height: 5vh;
+    width: 7vw;
+    border-radius: 14px;
+    font-size: 30px;
+    padding-bottom: 7px;
+    border: 3px solid black;
+    position: fixed;
+}
